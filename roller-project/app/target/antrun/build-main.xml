@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <taskdef name="texen" classname="org.apache.velocity.texen.ant.TexenTask" classpathref="maven.compile.classpath"/>
+  <texen outputFile="README.txt" controlTemplate="control.vm" outputDirectory="C:\Users\anguyen\J2EEworkspace\roller-project\app/target/dbscripts" templatePath="C:\Users\anguyen\J2EEworkspace\roller-project\app/src/main/resources/sql" contextProperties="C:\Users\anguyen\J2EEworkspace\roller-project\app/src/main/resources/sql/dbscripts.properties"/>
+</target>
+</project>

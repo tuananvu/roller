@@ -1,0 +1,15 @@
+/WEB-INF/
+/adminapi-testdata/
+/blacklist.txt
+/bookmarks.opml
+/commons-logging.properties
+/hawk.jpg
+/jetty.xml
+/jndi.properties
+/org/
+/roller-custom.properties
+/roller-jettyrun.properties
+/simple-jndi/
+/themes/
+/uploadsdir/
+/webdefault.xml
